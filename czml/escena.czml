@@ -6,7 +6,7 @@
     "clock": {
       "interval": "2025-08-01T00:00:00Z/2025-08-29T23:59:59Z",
       "currentTime": "2025-08-01T01:00:00Z",
-      "multiplier": 510000
+      "multiplier": 810000
     }
   },
   {
@@ -16,16 +16,16 @@
       "cartographicDegrees": [-74.096, 4.629, 0]
     },
     "ellipse": {
-      "semiMinorAxis": 25000,
-      "semiMajorAxis": 25000,
+      "semiMinorAxis": 15000,
+      "semiMajorAxis": 15000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
         { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 500 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 5000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 15000 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 25000 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 30000 }
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 10000 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 20000 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 80000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 200000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
       "material": {
@@ -39,31 +39,31 @@
     "id": "medellin",
     "name": "Medellín - Cuadrado",
     "position": {
-      "cartographicDegrees": [-75.5812, 6.2442, 1500]
+      "cartographicDegrees": [-75.5812, 6.2442, 0]
     },
     "polygon": {
       "positions": {
         "cartographicDegrees": [
-          -75.6062, 6.2192, 1500,
-          -75.5562, 6.2192, 1500,
-          -75.5562, 6.2692, 1500,
-          -75.6062, 6.2692, 1500,
-          -75.6062, 6.2192, 1500
+          -75.6336573197974, 6.312521898848094, 0,
+          -75.51918635011843, 6.294400453052582, 0,
+          -75.64142819502366, 6.201109604250256, 0,
+          -75.51739307122007, 6.190115641623239, 0,
+          -75.6336573197974, 6.312521898848094, 0
         ]
       },
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
         { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 500 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 5000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 15000 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 25000 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 30000 }
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 12000 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 30000 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 120000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 150000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
       "material": {
         "solidColor": {
-          "color": { "rgba": [0, 0, 255, 180] }
+          "color": { "rgba": [0, 255, 0, 180] }
         }
       }
     }
@@ -95,7 +95,7 @@
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
       "material": {
         "solidColor": {
-          "color": { "rgba": [0, 255, 0, 180] }
+          "color": { "rgba": [0, 0, 255, 180] }
         }
       }
     }
@@ -109,11 +109,11 @@
     "polygon": {
       "positions": {
         "cartographicDegrees": [
-          -76.5319, 3.4816, 1000,
-          -76.5019, 3.4516, 1000,
-          -76.5319, 3.4216, 1000,
-          -76.5619, 3.4516, 1000,
-          -76.5319, 3.4816, 1000
+          -76.5319, 3.4816, 0,
+          -76.5019, 3.4516, 0,
+          -76.5319, 3.4216, 0,
+          -76.5619, 3.4516, 0,
+          -76.5319, 3.4816, 0
         ]
       },
       "height": 0,
